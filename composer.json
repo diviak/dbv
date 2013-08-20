@@ -1,0 +1,20 @@
+{
+    "name": "victorstanciu/dbv",
+    "type": "library",
+    "description": "Database version control, made easy!",
+    "keywords": ["database", "version", "schema", "revision"],
+    "homepage": "http://dbv.vizuina.com/",
+    "license": ["MIT"],
+    "authors": [
+    {
+        "name": "Victor Stanciu",
+        "homepage": "http://www.victorstanciu.ro/"
+    }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
